@@ -1,4 +1,6 @@
-## R programming: Assignment 2 20150822
+
+## R programming: Assignment 2_ Matrix Inversion_20150822
+
 ## Matrix inversion is usually a costly computation and there may be some benefit to 
 ##  caching the inverse of a matrix rather than compute it repeatedly
 ##  Assignment: is to write a pair of functions that cache the inverse of a matrix.
@@ -33,5 +35,5 @@ cacheSolve <- function(x, ...) {
         m <- solve(data, ...)
         x$setmatrix(m)
         m
-      
-}
+}      
+
